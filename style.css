@@ -1,0 +1,305 @@
+body {
+	background-color: #0B3866;
+}
+
+.Head {
+	display: flex;
+	justify-content: space-between;
+	font-size: 20px;
+	width: 98%;
+	height: 100px;
+	align-items: center;
+	box-sizing: border-box;
+	border-radius: 10px;
+	padding: 0 20px;
+	background-color: transparent;
+	position: absolute;
+	top: 1%;
+}
+
+.Left {
+	display: flex;
+	justify-content: flex-start;
+	gap: 15px;
+	cursor: pointer;
+	transition: 0.3s;
+	border-radius: 20px;
+
+	font-family: 'CoffeeBread', cursive;
+	font-size: 50px;
+	color: #95F9C3;
+
+
+
+}
+
+.Left:hover {
+	text-shadow:
+		0 0 2.5px #fff,
+		0 0 2.5px #0fa,
+		0 0 10px #0fa,
+		0 0 20px #0fa;
+}
+
+.Left img {
+	border-radius: 20px;
+
+}
+
+.Left img:hover {
+	height: 80px;
+	width: 80px;
+
+}
+
+
+.Gtext {
+	color: darkcyan;
+	font-size: 30px;
+	position: absolute;
+	top: 90%;
+	left: 38%;
+
+
+}
+
+.Gtext:hover {
+	text-shadow:
+		0 0 2.5px #fff,
+		0 0 2.5px #0fa,
+		0 0 10px #0fa,
+		0 0 20px #0fa;
+
+}
+
+.right {
+
+	display: flex;
+	align-content: right;
+	justify-content: flex-end;
+	gap: 30px;
+	align-items: right;
+
+}
+
+.about {
+	padding: 8px 16px;
+	border: 3px solid black;
+	border-radius: 5px;
+	background-color: white;
+	cursor: pointer;
+	transition: 0.3s;
+
+}
+
+.about:hover {
+
+	font-weight: bold;
+	text-shadow:
+		0 0 5px #fff,
+		0 0 10px #0fa,
+		0 0 20px #0fa,
+		0 0 40px #0fa;
+}
+
+.contact {
+	padding: 8px 16px;
+	border: 3px solid black;
+	border-radius: 5px;
+	background-color: white;
+	cursor: pointer;
+	transition: 0.3s;
+
+}
+
+.contact:hover {
+
+	font-weight: bold;
+	text-shadow:
+		0 0 5px #fff,
+		0 0 10px #0fa,
+		0 0 20px #0fa,
+		0 0 40px #0fa;
+}
+
+
+.Joinnow {
+	padding: 8px 16px;
+	border: 3px solid black;
+	border-radius: 5px;
+	background-color: white;
+	cursor: pointer;
+	transition: 0.3s;
+
+}
+
+.Joinnow:hover {
+
+	font-weight: bold;
+	text-shadow:
+		0 0 5px #fff,
+		0 0 10px #0fa,
+		0 0 20px #0fa,
+		0 0 40px #0fa;
+}
+
+
+
+
+.wrapper {
+	height: 440px;
+	width: 600px;
+	display: flex;
+	gap: 2px;
+	box-sizing: border-box;
+	padding: 0 20px;
+
+
+	position: absolute;
+	top: 140%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.FIGS {
+	position: relative;
+	z-index: 5;
+	height: 100%;
+	flex: 1;
+	cursor: pointer;
+	transition: 0.4s ease;
+}
+
+.FIGS img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	border-radius: 20px;
+	filter: grayscale(1);
+	transition: 0.4s ease;
+
+}
+
+.FIGS:hover {
+	flex: 4;
+
+}
+
+.FIGS:hover img {
+	filter: grayscale(0);
+}
+
+@font-face {
+	font-family: 'CoffeeBread';
+	src: url('fonts/CoffeeBread.ttf') format('truetype');
+}
+
+.Footer {
+	display: flex;
+	border-radius: 20px;
+	background-color: #36454F;
+	gap: 1px;
+	position: absolute;
+	top: 250%;
+	color: white;
+	width: 98%;
+	height: 200px;
+
+}
+
+
+.Footer img {
+	border-radius: 20px;
+	align-items: center;
+	position: absolute;
+	left: 1%;
+	top: 4%;
+}
+
+.fttext {
+	color: #C0C0C0;
+	position: absolute;
+	top: 20%;
+	left: 80%;
+	font-size: 20px;
+	line-height: 1.4;
+}
+
+h2 {
+	color: #ADD8E6;
+	font-size: 40px;
+	position: absolute;
+	top: -13%;
+	left: 80%;
+
+}
+
+.Self1 {
+	background-color: white;
+	border-radius: 20px;
+	color: black;
+	width: 500px;
+	height: 500px;
+	position: absolute;
+	left: 2%;
+	top: 20%;
+}
+
+.Self2 {
+	background-color: white;
+	border-radius: 20px;
+	color: black;
+	width: 500px;
+	height: 500px;
+	position: absolute;
+	left: 66%;
+	top: 179%;
+}
+
+.BKLN {
+	position: absolute;
+	z-index: 2;
+	background-color: white;
+	top: 25%;
+	left: 50%;
+	border-radius: 20px;
+	height: 50px;
+	width: 125%;
+	background-color: hsl(48, 82%, 51%);
+
+}
+
+.BKLNN {
+	position: absolute;
+	z-index: 1;
+	top: 60%;
+	left: 50%;
+	border-radius: 20px;
+	height: 50px;
+	width: 125%;
+	background-color: hsl(48, 82%, 51%);
+}
+
+.BKLN2 {
+	position: absolute;
+	z-index: 2;
+	background-color: white;
+	top: 25%;
+	left: -75%;
+	border-radius: 20px;
+	height: 50px;
+	width: 125%;
+	background-color: hsl(48, 82%, 51%);
+
+}
+
+.BKLNN2 {
+	position: absolute;
+	z-index: 1;
+	top: 60%;
+	left: -75%;
+	border-radius: 20px;
+	height: 50px;
+	width: 125%;
+	background-color: hsl(48, 82%, 51%);
+}
