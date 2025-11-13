@@ -330,6 +330,7 @@ h2 {
 	border-bottom-left-radius: 0;
 	border-bottom-right-radius: 0;
 }
+
 .Abtext {
 	position: absolute;
 	z-index: 3;
@@ -342,3 +343,50 @@ h2 {
 	font-family: 'CoffeeBread', cursive;
 }
 
+/* This is the Div For Pho */
+
+
+
+.pho3 {
+	position: absolute;
+	z-index: 4;
+	top: 40%;
+	left: 50%;
+
+}
+
+.pho3 img {
+	border-radius: 20px;
+	width: 100px;
+	height: 100px;
+}
+
+.pho1 {
+	position: absolute;
+	z-index: 4;
+	top: 40%;
+	left: 40%;
+
+
+}
+
+.pho1 img {
+	border-radius: 20px;
+	width: 100px;
+	height: 100px;
+}
+
+.pho2 {
+	position: absolute;
+	z-index: 4;
+	top: 40%;
+	left: 30%;
+
+
+}
+
+.pho2 img {
+	border-radius: 20px;
+	width: 100px;
+	height: 100px;
+}
