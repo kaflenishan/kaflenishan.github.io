@@ -57,9 +57,9 @@ body {
 	color: darkcyan;
 	font-size: 30px;
 	position: absolute;
-	top: 90%;
-	left: 38%;
-
+	top: -26%;
+	left: 18%;
+	z-index: 5;
 
 }
 
@@ -163,7 +163,7 @@ body {
 
 .FIGS {
 	position: relative;
-	z-index: 5;
+	z-index: 4;
 	height: 100%;
 	flex: 1;
 	cursor: pointer;
@@ -222,7 +222,7 @@ body {
 	top: 20%;
 	left: 80%;
 	font-size: 20px;
-	line-height: 1.4;
+	line-height: 1.6;
 }
 
 h2 {
@@ -437,4 +437,11 @@ h2 {
 		transform: translate(-149%, -14%);
 
 	}
+}
+.Rights{
+	position: absolute;
+	z-index: 6;
+	top: 80%;
+	left: 40%;
+	color: rgb(0, 0, 0);
 }
