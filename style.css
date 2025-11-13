@@ -238,7 +238,7 @@ h2 {
 
 
 .Self1 {
-	background-color:white;
+	background-color: white;
 	border-radius: 20px;
 	color: black;
 	width: 98%;
@@ -311,10 +311,10 @@ h2 {
 
 .lineS {
 	position: absolute;
-	z-index: 3;
-	top: 42%;
-	left: 50%;
-	transform: translate(-563px, 150px);
+	z-index: 4;
+	top: 60%;
+	left: 30%;
+	transform: translate(-134%, 650%);
 	height: 10px;
 	width: 200px;
 	background-color: hsl(0, 0%, 0%);
@@ -323,12 +323,12 @@ h2 {
 
 .halfcircle {
 	position: absolute;
-	z-index: 3;
-	top: 42%;
-	left: 50%;
+	z-index: 4;
 	width: 100px;
 	height: 50px;
-	transform: translate(-512px, 108px);
+	top: 40%;
+	left: 30%;
+	transform: translate(-214%, 238%);
 	background-color: hsl(0, 0%, 0%);
 	border-top-left-radius: 50px;
 	border-top-right-radius: 50px;
@@ -351,27 +351,12 @@ h2 {
 /* This is the Div For Pho */
 
 
-
-.pho3 {
-	position: absolute;
-	z-index: 4;
-	top: 40%;
-	left: 50%;
-
-}
-
-.pho3 img {
-	border-radius: 20px;
-	width: 100px;
-	height: 100px;
-}
-
 .pho1 {
 	position: absolute;
-	z-index: 4;
+	z-index: 3;
 	top: 40%;
-	left: 40%;
-
+	left: 30%;
+	transform: translate(-214%, 109%);
 
 }
 
@@ -383,14 +368,29 @@ h2 {
 
 .pho2 {
 	position: absolute;
-	z-index: 4;
+	z-index: 3;
 	top: 40%;
 	left: 30%;
-
+	transform: translate(-214%, 109%);
 
 }
 
 .pho2 img {
+	border-radius: 20px;
+	width: 100px;
+	height: 100px;
+}
+
+.pho3 {
+	position: absolute;
+	z-index: 3;
+	top: 40%;
+	left: 30%;
+	transform: translate(-214%, 109%);
+
+}
+
+.pho3 img {
 	border-radius: 20px;
 	width: 100px;
 	height: 100px;
