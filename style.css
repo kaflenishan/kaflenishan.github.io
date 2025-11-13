@@ -234,8 +234,11 @@ h2 {
 
 }
 
+/* This is the Div For Self */
+
+
 .Self1 {
-	background-color: white;
+	background-color:transparent;
 	border-radius: 20px;
 	color: black;
 	width: 98%;
