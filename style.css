@@ -357,6 +357,7 @@ h2 {
 	top: 40%;
 	left: 30%;
 	transform: translate(-214%, 109%);
+	animation: moveUp 2s forwards;
 
 }
 
@@ -366,12 +367,28 @@ h2 {
 	height: 100px;
 }
 
+/* This is the Div For Pho2 */
+
+@keyframes moveUp {
+	0% {
+		transform: translate(-214%, 109%);
+	}
+
+	100% {
+		transform: translate(-214%, -60%);
+		/* 109% - 400px ≈ -291% if using percentage as in your current transform */
+	}
+}
+
+/* this is last one */
+
 .pho2 {
 	position: absolute;
 	z-index: 3;
 	top: 40%;
 	left: 30%;
 	transform: translate(-214%, 109%);
+	animation: moveUpLeft 2s forwards;
 
 }
 
@@ -381,17 +398,43 @@ h2 {
 	height: 100px;
 }
 
+/* This is the Div For Pho2 */
+
+@keyframes moveUpLeft {
+	0% {
+		transform: translate(-214%, 109%);
+	}
+
+	100% {
+		transform: translate(-298%, -20%);
+
+	}
+}
+
+/* this is last one */
+
 .pho3 {
 	position: absolute;
 	z-index: 3;
 	top: 40%;
 	left: 30%;
 	transform: translate(-214%, 109%);
+	animation: moveUpRight 2s forwards;
 
 }
 
 .pho3 img {
 	border-radius: 20px;
-	width: 100px;
-	height: 100px;
+	width: 80px;
+	height: 80px;
+}
+@keyframes moveUpRight {
+	0% {
+		transform: translate(-214%, 109%);
+	}
+
+	100% {
+		transform: translate(-149%, -14%);
+
+	}
 }
