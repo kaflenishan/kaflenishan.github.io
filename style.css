@@ -380,7 +380,7 @@ h2 {
 	top: 40%;
 	left: 30%;
 	transform: translate(-214%, 109%);
-	animation: moveUp 2s forwards;
+	animation: moveUp 4s forwards;
 
 }
 
@@ -410,7 +410,7 @@ h2 {
 	top: 40%;
 	left: 30%;
 	transform: translate(-214%, 109%);
-	animation: moveUpLeft 2s forwards;
+	animation: moveUpLeft 4s forwards;
 
 }
 
@@ -441,7 +441,7 @@ h2 {
 	top: 40%;
 	left: 30%;
 	transform: translate(-214%, 109%);
-	animation: moveUpRight 2s forwards;
+	animation: moveUpRight 4s forwards;
 
 }
 
