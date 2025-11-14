@@ -254,6 +254,7 @@ h2 {
 
 
 .Self1 {
+	z-index: 4;
 	background-color: #6FADEB;
 	border-radius: 20px;
 	color: black;
@@ -360,7 +361,7 @@ h2 {
 
 .Abtext {
 	position: absolute;
-	z-index: 3;
+	z-index: 6;
 	top: 35%;
 	left: 50%;
 	transform: translate(-50%, 45%);
@@ -369,7 +370,7 @@ h2 {
 	color: hsl(0, 0%, 0%);
 	font-family: 'CoffeeBread', cursive;
 	animation: ToleftTop 3s forwards;
-	cursor: pointer; 
+	cursor: pointer;
 }
 
 .Abtext::after {
@@ -393,12 +394,30 @@ h2 {
 	0% {
 		transform: translate(-50%, 45%);
 		font-size: 80px;
-	
+
+	}
+
+	10% {
+		transform: translate(-50%, 45%);
+		font-size: 80px;
+
+	}
+
+	20% {
+		transform: translate(-50%, 45%);
+		font-size: 80px;
+
+	}
+
+	30% {
+		transform: translate(-50%, 45%);
+		font-size: 80px;
+
 	}
 
 	100% {
-		transform: translate(180%, -280%);
-		font-size: 40px;
+		transform: translate(100%, -260%);
+		font-size: 45px;
 	}
 }
 
@@ -425,6 +444,22 @@ h2 {
 
 @keyframes moveUp {
 	0% {
+		transform: translate(-214%, 109%);
+	}
+
+	10% {
+		transform: translate(-214%, 109%);
+	}
+
+	20% {
+		transform: translate(-214%, 109%);
+	}
+
+	30% {
+		transform: translate(-214%, 109%);
+	}
+
+	40% {
 		transform: translate(-214%, 109%);
 	}
 
@@ -458,6 +493,22 @@ h2 {
 		transform: translate(-214%, 109%);
 	}
 
+	10% {
+		transform: translate(-214%, 109%);
+	}
+
+	20% {
+		transform: translate(-214%, 109%);
+	}
+
+	30% {
+		transform: translate(-214%, 109%);
+	}
+
+	40% {
+		transform: translate(-214%, 109%);
+	}
+
 	100% {
 		transform: translate(-298%, -20%);
 
@@ -471,7 +522,7 @@ h2 {
 	z-index: 3;
 	top: 40%;
 	left: 30%;
-	transform: translate(-214%, 109%);
+	transform: translate(-255%, 149%);
 	animation: moveUpRight 3s forwards;
 
 }
@@ -483,9 +534,27 @@ h2 {
 }
 
 @keyframes moveUpRight {
+	
 	0% {
-		transform: translate(-214%, 109%);
+		transform: translate(-255%, 149%);
 	}
+
+	10% {
+		transform: translate(-255%, 149%);
+	}
+
+	20% {
+		transform: translate(-255%, 149%);
+	}
+
+	30% {
+		transform: translate(-255%, 149%);
+	}
+
+	40% {
+		transform: translate(-255%, 149%);
+	}
+
 
 	100% {
 		transform: translate(-150%, -14%);
@@ -514,5 +583,25 @@ h2 {
 	background-color: #6FADEB;
 	border-radius: 20px;
 }
+
+/* ============================================================*/
+.ABINFO {
+	background-color: #ffffff;
+	position: absolute;
+	z-index: 5;
+	top: 25%;
+	left: 10%;
+	transform: translate(104%, -10%);
+	height: 60%;
+	width: 40%;
+	padding: 25px;
+	border-radius: 15px;
+	font-size: 20px;
+	line-height: 1.8;
+	color: #333;
+	text-align: justify;       
+	text-indent: 30px;         
+}
+
 
 /* ============================================================*/
